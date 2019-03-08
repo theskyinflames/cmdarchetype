@@ -1,0 +1,12 @@
+do-async: false
+source-data: https://data.safe.net:443
+result-receivers: 
+  - receiver1
+  - receiver2
+  - receiver3
+db-connection-params:
+  user: myuser
+  password: mypassword
+  db-url: https://db.safe.net:443
+
+
