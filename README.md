@@ -23,7 +23,7 @@ db-connection-params:
 ```
 
 ## Environment used to build this archetype
-* Go: go1.11.5 linux/amd64 ()
+* Go: go1.11.5 linux/amd64
 * Make: GNU Make 4.2.1
 
 ## Execute the command
