@@ -8,7 +8,7 @@ This is the sequence to set the parameters values:
 2. If a config file is specified, and it contais a value for the parameter, it will be taken
 3. Otherwise, if a default value for the parameter has been set, it will be taken
 
-There is an config file as example:
+There is a config file as example:
 ```yalm
 do-async: false
 source-data: https://data.safe.net:443
