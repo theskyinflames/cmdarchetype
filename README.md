@@ -35,7 +35,7 @@ As I've said above, if a config file is specified, its parameters will be loaded
 With the above showed config file, this is the config loaded to execute the tool:
 ```sh
 INFO[0000] loading config from [./example-config.yml] file 
-INFO[0000] loaded config: (*config.Config)(0xc000096900)({
+INFO[0000] loaded config: (*config.Config)(0xc000098900)({
  SourceData: (string) (len=25) "https://data.safe.net:443",
  ResultReceivers: ([]string) (len=3 cap=3) {
   (string) (len=9) "receiver1",
@@ -45,14 +45,14 @@ INFO[0000] loaded config: (*config.Config)(0xc000096900)({
  DBConnectionParams: (config.DBConnectionParams) {
   User: (string) (len=6) "myuser",
   Password: (string) (len=10) "mypassword",
-  DBURL: (string) (len=23) "https://db.safe.net:443"
+  DBURL: (string) (len=4) "myDB"
  },
  DoAsynchronously: (bool) true
 })
  
-INFO[0000] starting the command at 2019-03-08 21:44:47.917868658 +0100 CET m=+0.004548910 
-INFO[0001] Action done sucessfully !!!, in 1.000309761s 
- ~/go/src/github.com/theskyinflames/cmdarchetype    
+INFO[0000] starting the command at 2019-03-11 20:30:14.50096253 +0100 CET m=+0.001722683 
+INFO[0001] Action done sucessfully !!!, in 1.000157953s 
+  
 ```
 
 As you can see, in the config file, the parameter *db-url* value is *https://db.safe.net:443*, but executing the tool on this way, I've forced the value for this parameter to *myDB*
