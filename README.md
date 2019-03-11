@@ -57,3 +57,7 @@ INFO[0001] Action done sucessfully !!!, in 1.000309761s
 
 As you can see, in the config file, the parameter *db-url* value is *https://db.safe.net:443*, but executing the tool on this way, I've forced the value for this parameter to *myDB*
 
+Of course, passing a config file is not mandatory. I such case, you'll have to pass all of parameters by command line calling. Otherwise, the default values will be taken.
+
+Enjoy it !!
+
