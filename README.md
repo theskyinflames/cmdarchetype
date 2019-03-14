@@ -32,7 +32,7 @@ As I've said above, if a config file is specified, its parameters will be loaded
 ❯ go run main.go -c=./example-config.yml --do-async=true --db-url=myDB
 ```
 
-With the above showed config file, this is the config loaded to execute the tool:
+With the above showed config file, this is the config loaded:
 ```sh
 INFO[0000] loading config from [./example-config.yml] file 
 INFO[0000] loaded config: (*config.Config)(0xc000098900)({
@@ -57,7 +57,7 @@ INFO[0001] Action done sucessfully !!!, in 1.000157953s
 
 As you can see, in the config file, the parameter *db-url* value is *https://db.safe.net:443*, but executing the tool on this way, I've forced the value for this parameter to *myDB*
 
-Of course, passing a config file is not mandatory. I such case, you'll have to pass all of parameters by command line calling. Otherwise, the default values will be taken.
+Of course, passing a config file is not mandatory. I such case, you'll have to pass all of parameters by command line. Otherwise, the default values will be taken.
 
 Enjoy it !!
 
